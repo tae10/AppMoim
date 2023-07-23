@@ -1,0 +1,32 @@
+# Logging Level Configuration
+logging :
+  level :
+    org :
+      edupoll : debug
+  
+# Spring Configuration  
+
+spring :
+  profiles :
+    active : oracle
+  mustache:
+    servlet:
+      expose-session-attributes: true
+  jackson :
+    default-property-inclusion : NON_NULL
+  mvc :
+    format :
+      date : yyyy-MM-dd
+          
+server :
+  port : 8080
+  
+  servlet :
+    encoding :
+      force : true
+    
+config :
+  moim :
+    pageSize : 6    
+    
+   

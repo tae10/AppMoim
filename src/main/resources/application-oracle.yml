@@ -1,0 +1,5 @@
+spring :
+  datasource :
+    url : jdbc:oracle:thin:@52.78.93.131:1521:xe
+    username : moim
+    password : 1q2w3e4r
